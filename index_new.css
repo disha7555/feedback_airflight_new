@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 20px;
+}
+
+img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.gender,
+.age-group,
+.description {
+    margin-bottom: 20px;
+}
+#male,#female,#ltt,#tts,#mts,#student,#emp,#selfemp,#retired,#notemp{
+    margin-top:2%;
+}
+
+
+button {
+    display: block;
+    margin: 0 auto;
+    background-color: #000080;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,39 @@
+
+body{
+    margin-left:2vw;
+    margin-top:3vw;
+    color: #000080;
+    font-size: 1.3vw;
+    
+}
+input{
+    font-size:15px;
+    background-color: #000080;
+    color:white;
+    margin-top: 3vw;
+    margin-left: 2.5vw;
+    padding:0.7vw;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.main{
+    width:100%;
+    justify-content: center;
+    text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+   .main{
+    width:100%;
+   }
+   textarea{
+    width:70vw
+   }
+   input{
+    margin-left: 15vw;
+   }
+   label{
+    font-size: 5vw;
+}
+}
